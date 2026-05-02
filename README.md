@@ -64,3 +64,7 @@
    ```bash
    pkg update -y && pkg upgrade -y
    pkg install python git -y
+   git clone https://github.com/ZaxxyDev78/CreateFacebookv2.git
+   cd CreateFacebookv2
+   pip install requests faker rich
+   python createv2.py
