@@ -9,62 +9,68 @@
   <img src="https://img.shields.io/badge/platform-Termux%20%7C%20Linux%20%7C%20Windows%20%7C%20macOS-lightgrey?style=for-the-badge" />
 </p>
 
-<p align="center">
-  <b>🔐 Alat pembuat akun Facebook otomatis dengan antarmuka premium dan sistem lisensi ekslusif.</b><br>
-  <sub>Dikembangkan oleh <a href="https://github.com/ZaxxyDev78">ZaxxyDev78</a></sub>
-</p>
+---
+
+## 🚀 Instalasi & Jalankan (Salin Tempel Satu Kali)
+
+**Untuk Termux / Linux (Ubuntu, Debian, Fedora, Arch, dll):**
+
+```bash
+# Update & install Python + Git
+pkg update -y && pkg upgrade -y && pkg install python git -y || sudo apt update && sudo apt install python3 python3-pip git -y || sudo dnf install python3 python3-pip git -y || sudo pacman -S python python-pip git --noconfirm
+
+# Clone repositori & masuk folder
+git clone https://github.com/ZaxxyDev78/CreateFacebookv2.git && cd CreateFacebookv2
+
+# Install library (requests, faker, rich)
+pip install requests faker rich || pip3 install requests faker rich
+
+# Jalankan tool
+python createv2.py || python3 createv2.py
+```
+
+Windows: Install Python + Git secara manual, lalu buka Command Prompt / PowerShell dan jalankan:
+
+```powershell
+git clone https://github.com/ZaxxyDev78/CreateFacebookv2.git
+cd CreateFacebookv2
+pip install requests faker rich
+python createv2.py
+```
 
 ---
 
-## 📑 Daftar Isi
-- [✨ Fitur Unggulan](#-fitur-unggulan)
-- [📦 Instalasi Lengkap per Platform](#-instalasi-lengkap-per-platform)
-  - [Persyaratan Sistem](#persyaratan-sistem)
-  - [Termux (Android)](#-termux-android)
-  - [Linux (Ubuntu/Debian, Fedora, Arch)](#-linux-ubuntudebian-fedora-arch)
-  - [Windows](#-windows)
-  - [macOS](#-macos)
-- [🚀 Cara Menjalankan](#-cara-menjalankan)
-- [🔑 Lisensi & Verifikasi](#-lisensi--verifikasi)
-- [🛠 Troubleshooting](#-troubleshooting)
-- [📜 Source Code](#-source-code)
-- [⚠️ Peringatan Keras](#️-peringatan-keras)
-- [📄 Disclaimer](#-disclaimer)
-- [📞 Kontak Admin](#-kontak-admin)
+📜 Fitur
+
+· UI Premium dengan panel, tree, spinner (Rich)
+· Data random realistis: nama, kota, gender, foto profil, cover
+· Password manual atau otomatis
+· Verifikasi email dengan kode OTP
+· Multi-bahasa (Indonesia, Inggris, Mandarin, custom)
+· Hasil disimpan di /sdcard/Premium/CreateFbrif/AcounttFresh.txt (Android)
 
 ---
 
-## ✨ Fitur Unggulan
-- 🔄 **Pembuatan akun massal** – atur jumlah akun yang ingin dibuat
-- 🌈 **UI Premium** – tampilan Rich Console dengan panel, tree, spinner
-- 👤 **Data acak realistis** – nama, tanggal lahir, gender, foto profil & cover dari Faker
-- 🌐 **Multi-bahasa** – dukung Indonesia, Inggris, Mandarin, dan custom
-- 🔐 **Password manual / otomatis** – fleksibel sesuai kebutuhan
-- 📧 **Verifikasi email manual** – kode OTP dimasukkan langsung
-- 💾 **Hasil tersimpan otomatis** – akun sukses tercatat di `/sdcard/Premium/CreateFbrif/AcounttFresh.txt`
-- 🛡️ **Sistem lisensi perangkat** – hanya device terdaftar yang bisa menjalankan
+🔑 Lisensi
+
+Alat ini berbayar & hanya bisa dijalankan setelah Device ID kamu diverifikasi oleh admin.
+Saat pertama kali dijalankan, Device ID akan muncul. Hubungi admin via WhatsApp untuk aktivasi.
 
 ---
 
-## 📦 Instalasi Lengkap per Platform
+⚠️ Peringatan
 
-### Persyaratan Sistem
-| Komponen | Minimal |
-|----------|---------|
-| **Python** | 3.8 atau lebih baru |
-| **pip** | terbaru |
-| **Git** | opsional (bisa download ZIP) |
-| **Koneksi Internet** | wajib |
+Gunakan dengan tanggung jawab penuh. Penyalahgunaan dapat menyebabkan pemblokiran akun, IP, dan melanggar hukum.
+Alat ini hanya untuk edukasi & penelitian keamanan.
 
 ---
 
-### 📱 Termux (Android)
+📞 Kontak
 
-1. **Buka Termux** lalu perbarui dan pasang dependensi dasar:
-   ```bash
-   pkg update -y && pkg upgrade -y
-   pkg install python git -y
-   git clone https://github.com/ZaxxyDev78/CreateFacebookv2.git
-   cd CreateFacebookv2
-   pip install requests faker rich
-   python createv2.py
+· WhatsApp: +31617622102
+· GitHub Issues: CreateFacebookv2
+
+<p align="center">Made with ❤️ by ZaxxyDev78</p>
+```
+
+Kamu tinggal copy blok perintah pertama ke Termux/Linux, dia akan otomatis install semua yang dibutuhkan lalu langsung menjalankan createv2.py.
