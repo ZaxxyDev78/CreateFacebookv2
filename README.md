@@ -23,7 +23,7 @@
 - 🌐 **Multi-bahasa** – Indonesia, Inggris, Mandarin, custom
 - 🔐 **Password manual / otomatis** – sesuai pilihan
 - 📧 **Verifikasi email manual** – kode OTP dimasukkan langsung
-- 💾 **Hasil tersimpan otomatis** – file `AcounttFresh.txt` di `/sdcard/Premium/CreateFbrif`
+- 💾 **Hasil tersimpan otomatis** – file `Results.txt` di `/sdcard/ZAXXYCREATE`
 - 🛡️ **Sistem lisensi perangkat** – hanya Device ID terdaftar yang dapat menjalankan
 
 ---
